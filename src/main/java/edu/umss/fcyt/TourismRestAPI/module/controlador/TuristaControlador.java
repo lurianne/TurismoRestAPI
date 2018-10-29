@@ -1,0 +1,4 @@
+package edu.umss.fcyt.TourismRestAPI.module.controlador;
+
+public class TuristaControlador {
+}
