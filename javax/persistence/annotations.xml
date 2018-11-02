@@ -1,0 +1,5 @@
+<root>
+    <item name='javax.persistence.GenerationType'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>
