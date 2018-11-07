@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e69cc3e4-7f55-4639-815b-97433626879b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/controlador/TuristaControlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/modelo/Turista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/repositorio/TuristaRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/controlador/ReservaControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/controlador/ReservaControlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/modelo/Package.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/modelo/Package.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/modelo/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/modelo/Reserva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/repositorio/ReservaRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/repositorio/ReservaRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/umss/fcyt/TourismRestAPI/module/modelo/Package.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/umss/fcyt/TourismRestAPI/module/modelo/Reserva.class" beforeDir="false" />
-    </list>
+    <list default="true" id="e69cc3e4-7f55-4639-815b-97433626879b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/modelo/Turista.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -147,7 +136,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/modelo/Reserva.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -366,7 +355,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -377,12 +365,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30278233" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30278233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -498,16 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/modelo/Reserva.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/modelo/Package.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -526,6 +504,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/umss/fcyt/TourismRestAPI/module/modelo/Reserva.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
