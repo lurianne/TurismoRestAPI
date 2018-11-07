@@ -1,17 +1,19 @@
 package edu.umss.fcyt.TourismRestAPI.module.modelo;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import sun.util.calendar.BaseCalendar;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.sql.Date;
+import java.util.List;
 
 @Entity
+@JsonIdentityInfo(
+        generator = ObjectIdGenerators.PropertyGenerator.class,
+        property = "id")
 public class Turista {
     @Id
-
     private Long idturista;
     private Long idagencia;
     private String nombreturista;
@@ -22,6 +24,8 @@ public class Turista {
     private String whastappturista;
     private String loginturista;
     private String passturista;
+    @OneToMany(mappedBy = "turista")
+    private List<Reserva> reservas;
 
     public Turista(){}
     public Turista(Long id,Long idAge,String text,String text2,Date text3,String text4,String text5,String text6,String text7,String text8){

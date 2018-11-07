@@ -1,9 +1,16 @@
 package edu.umss.fcyt.TourismRestAPI.module.modelo;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "\"PACKAGE\"")
+@JsonIdentityInfo(
+        generator = ObjectIdGenerators.PropertyGenerator.class,
+        property = "id")
 public class Package{
     @Id
     @Column(name = "\"packageId\"")
@@ -22,6 +29,16 @@ public class Package{
     @ManyToOne
     @JoinColumn(name ="\"categoryId\"")
     private Categoria categoria;
+    @OneToMany(mappedBy = "paquete")
+    private List<Reserva> reservas;
+
+    public List<Reserva> getReservas() {
+        return reservas;
+    }
+
+    public void setReservas(List<Reserva> reservas) {
+        this.reservas = reservas;
+    }
 
     public Long getId() {
         return id;
