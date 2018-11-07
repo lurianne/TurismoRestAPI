@@ -1,0 +1,10 @@
+/home/lurianne/Proyectos/IS/TurismoRestAPI/src/main/java/edu/umss/fcyt/TourismRestAPI/module/repositorio/CategoriaRepositorio.java
+/home/lurianne/Proyectos/IS/TurismoRestAPI/src/main/java/edu/umss/fcyt/TourismRestAPI/module/modelo/Categoria.java
+/home/lurianne/Proyectos/IS/TurismoRestAPI/src/main/java/edu/umss/fcyt/TourismRestAPI/module/controlador/PackageControlador.java
+/home/lurianne/Proyectos/IS/TurismoRestAPI/src/main/java/edu/umss/fcyt/TourismRestAPI/module/controlador/CategoriaControlador.java
+/home/lurianne/Proyectos/IS/TurismoRestAPI/src/main/java/edu/umss/fcyt/TourismRestAPI/module/repositorio/PackageRepositorio.java
+/home/lurianne/Proyectos/IS/TurismoRestAPI/src/main/java/edu/umss/fcyt/TourismRestAPI/module/controlador/ReservaControlador.java
+/home/lurianne/Proyectos/IS/TurismoRestAPI/src/main/java/edu/umss/fcyt/TourismRestAPI/module/modelo/Package.java
+/home/lurianne/Proyectos/IS/TurismoRestAPI/src/main/java/edu/umss/fcyt/TourismRestAPI/module/modelo/Reserva.java
+/home/lurianne/Proyectos/IS/TurismoRestAPI/src/main/java/edu/umss/fcyt/TourismRestAPI/module/repositorio/ReservaRepositorio.java
+/home/lurianne/Proyectos/IS/TurismoRestAPI/src/main/java/edu/umss/fcyt/TourismRestAPI/TourismApp.java

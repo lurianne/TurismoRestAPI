@@ -6,6 +6,7 @@ import org.hibernate.validator.constraints.CodePointLength;
 
 import javax.persistence.*;
 import javax.websocket.ClientEndpoint;
+import java.util.List;
 
 @Entity
 @Table(name = "\"CATEGORY\"")
@@ -21,6 +22,9 @@ public class Categoria {
     private String nombre;
     @Column(name = "description")
     private String descripcion;
+
+    @OneToMany(mappedBy = "categoria")
+    private List<Package> paquetes;
 
     public Long getId() {
         return id;

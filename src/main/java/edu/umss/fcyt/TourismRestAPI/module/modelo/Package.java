@@ -8,62 +8,74 @@ public class Package{
     @Id
     @Column(name = "\"packageId\"")
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private Long packageId;
-    private Long minimunGroup;
-    private Long categoryId;
-    private String name;
-    private String description;
+    private Long id;
+    @Column(name = "\"minimunGroup\"")
+    private Long minimo;
+    @Column(name = "name")
+    private String nombre;
+    @Column(name = "description")
+    private String descripcion;
+    @Column(name = "keywords")
     private String keywords;
+    @Column(name = "inversion")
     private Long inversion;
+    @ManyToOne
+    @JoinColumn(name ="\"categoryId\"")
+    private Categoria categoria;
 
-    public Package () {}
-    public Package(Long id ,Long miniG ,Long idCateg,String text1,String text2,String  text3,Long invers){
-        this.packageId = id;
-        this.minimunGroup = miniG;
-        this.categoryId = idCateg;
-        this.name = text1;
-        this.description = text2;
-        this.keywords = text3;
-        this.inversion = invers;
+    public Long getId() {
+        return id;
     }
 
-    public Long getId(){
-        return packageId;
+    public void setId(Long id) {
+        this.id = id;
     }
-    public Long getMiniG (){
-        return minimunGroup;
+
+    public Long getMinimo() {
+        return minimo;
     }
-    public Long getIdCateg(){
-        return categoryId;
+
+    public void setMinimo(Long minimo) {
+        this.minimo = minimo;
     }
-    public String getText1(){
-        return name;
+
+    public Categoria getCategoria() {
+        return categoria;
     }
-    public String getText2(){
-        return description;
+
+    public void setCategoria(Categoria idCategoria) {
+        this.categoria = idCategoria;
     }
-    public String getText3(){
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public String getKeywords() {
         return keywords;
     }
-    public Long getInvers(){
+
+    public void setKeywords(String keywords) {
+        this.keywords = keywords;
+    }
+
+    public Long getInversion() {
         return inversion;
     }
 
-
-    public void setMinimunGroup(Long grupoMin ){
-        minimunGroup = grupoMin;
+    public void setInversion(Long inversion) {
+        this.inversion = inversion;
     }
-    public void setName (String nombre ){
-        name = nombre;
-    }
-    public void setDescription(String descripcion ){
-        description = descripcion;
-    }
-    public void setKeywords(String clave){
-        keywords = clave;
-    }
-    public void setInversion (Long inversi ){
-        inversion= inversi;
-    }
-
 }
